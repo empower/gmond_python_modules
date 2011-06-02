@@ -5,6 +5,10 @@ python module for ganglia 3.1.
 
 This module sends metrics on kestrel protocol "stats".
 
+Define your queues in the kestrel.conf file.
+Update/Add metric names to graph.
+The kstats script will auto gather all stats for each queue defined.
+
 ## AUTHOR
 
 Matt Erkkila <merkkila@empowercampaigns.com>
